@@ -1,13 +1,8 @@
 {
-  "name": "aws-cost-cli",
+  "name": "@InTune-Analytics/aws-cost-cli",
   "version": "0.2.7",
   "description": "A CLI tool to perform cost analysis on your AWS account",
   "type": "module",
-  "author": {
-    "name": "Kamran Ahmed",
-    "email": "kamranahmed.se@gmail.com",
-    "url": "https://github.com/kamranahmedse"
-  },
   "files": [
     "!tests/**/*",
     "dist/**/*",
