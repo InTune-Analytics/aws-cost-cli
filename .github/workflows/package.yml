@@ -29,6 +29,6 @@ jobs:
         # Remove this step if your package doesn't require a build step
 
       - name: Publish Package
-        run: npm publish
+        run: npm publish --registry=https://npm.pkg.github.com/
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
