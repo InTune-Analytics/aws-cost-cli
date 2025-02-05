@@ -43,6 +43,7 @@ export async function notifySlack(
 
 > *Summary *
 > Total Yesterday: \`$${totals.yesterday.toFixed(2)}\`
+> Total Last 7 Days: \`$${totals.last7Days.toFixed(2)}\`
 > Total This Month: \`$${totals.thisMonth.toFixed(2)}\`
 > Total Last Month: \`$${totals.lastMonth.toFixed(2)}\`
 `;
